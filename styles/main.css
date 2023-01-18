@@ -118,19 +118,19 @@ li{
     color: #0077b5;
     border-bottom: 4px solid #0077b5;
 }
-#socials--list li:nth-child(3)::before
+#socials--list li:nth-child(5)::before
 {
     content: '\f09b';
     color: white;
     border-bottom: 4px solid white;
 }
-#socials--list li:nth-child(4)::before
+#socials--list li:nth-child(3)::before
 {
     content: '\f2c5';
     color: green;
     border-bottom: 4px solid green;
 }
-#socials--list li:nth-child(5)::before
+#socials--list li:nth-child(4)::before
 {
     content: '\f1c1';
     color: red;
@@ -148,6 +148,7 @@ li{
 
 #qualifications--list{
     list-style: none;
+    line-height: 1.9em;
 }
 
 :root{
@@ -171,9 +172,6 @@ li{
 
 }
 
-#qualifications--list{
-    list-style: none;
-}
 
 #wrapper--techstack__items{
     display: flex;
@@ -194,6 +192,7 @@ li{
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
+    line-height: 1.7em;
 }
 
 .line-break{
